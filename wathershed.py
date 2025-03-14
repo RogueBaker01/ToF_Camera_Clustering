@@ -1,6 +1,5 @@
 import numpy as np
 import cv2
-import matplotlib.pyplot as plt
 
 x = np.loadtxt("Datos/array_x1.txt")
 y = np.loadtxt("Datos/array_y1.txt")

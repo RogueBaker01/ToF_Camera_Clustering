@@ -33,9 +33,9 @@ def show_m(matrix): # Funcion para imprimir la matriz.
     plt.title('No se :D')
     plt.show()
 
-file_d = 'array_x1.txt' # Archivo distancias.
-file_x = 'array_y1.txt' # Archivo puntos eje x.
-file_y = 'array_z1.txt' # Archivo puntos eje y.
+file_d = 'Datos/array_x1.txt' # Archivo distancias.
+file_x = 'Datos/array_y1.txt' # Archivo puntos eje x.
+file_y = 'Datos/array_z1.txt' # Archivo puntos eje y.
 
 matrix_d = make_m(file_d, file_x, file_y)
 show_m(matrix_d)
